@@ -1,0 +1,132 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* .container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 20px solid wheat;
+   
+
+} */
+
+.logo {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo img {
+    width: 50px ;
+    height: 50px;
+}
+
+.logo-heading{
+    width: 100%;
+    text-align: center
+}
+
+.logo-heading p{
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.clear{
+clear: both;
+}
+.for-form{
+    width: 310px;
+    height: 220px;;
+    margin: 0 auto;
+    background-color: #f6f8fa;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+
+.for-form form {
+    width: 290px;
+    /* border: 1px solid black; */
+    height: auto;
+    margin: 5px auto;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.for-form form  span a, .for-creating-a-new-account p a{
+    text-decoration: none;
+    color: rgb(19, 104, 232);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.for-form form input {
+    width: 85%;
+    height: 25px;
+    margin: 5px 15px 20px 15px;
+    border-radius: 5px;
+    border: 1px solid #d1d1d1;
+    padding-left: 15px;
+}
+
+.for-form form label{
+    margin-left: 15px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.for-form form  span{
+    float: right;
+    font-size: 15px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.for-form form button {
+    width: 90%;
+    height: 35px;
+    background-color: #28a745;
+    color: white;
+    border: 1px solid #28a745;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.for-creating-a-new-account{
+
+    width: 310px;
+    height: 50px;
+    border: 1px solid gainsboro;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.for-creating-a-new-account p{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px auto;
+    font-size: 14px;
+}
+
+.footer-navigation ul li{
+    display: inline;
+    list-style: none;
+}
+
+.footer-navigation ul li a {
+    text-decoration: none;
+    color: rgb(19, 104, 232);
+    font-size: 12px;
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.footer-navigation ul li a span{
+    color: gray;
+}
+
