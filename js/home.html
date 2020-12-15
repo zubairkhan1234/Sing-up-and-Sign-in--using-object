@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="userInformation()">
+    <form onsubmit="return dashboard()">
+        <h1>Your Profile</h1>
+        <h3 id="userN">Name</h3>
+        <h3 id="userE">Email</h3>
+        <h3 id="userG">Phone</h3>
+        <h3 id="userNationality">Nationality</h3>
+        <h3 id="userPassword">Phone</h3>
+    </form>
+
+    <script src="./app.js"></script>
+    <!-- <script>
+var user_Names2 = JSON.parse(localStorage.getItem("name"))
+var user_Email2 = JSON.parse(localStorage.getItem("email"))
+var user_Password2 = JSON.parse(localStorage.getItem("password"))
+
+document.getElementById("userN").innerHTML = "Name :" + " " + user_Names2
+document.getElementById("userE").innerHTML = "Email :" + " " + user_Email2
+document.getElementById("userP").innerHTML = "Password :" + " " + user_Password2
+    </script> -->
+</body>
+
+</html>
